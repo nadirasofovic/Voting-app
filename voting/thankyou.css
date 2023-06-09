@@ -1,0 +1,115 @@
+.navbar {
+    overflow: hidden;
+    font-family: inherit;
+}
+
+.navbar a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    color: midnightblue;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 7.5px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+header{
+    background: linear-gradient(45deg, midnightblue, darkred);
+    color: #f9f9f9;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    height: 120px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(45deg, midnightblue, darkred);
+    color: #f9f9f9;
+    margin-top: auto;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+#slika{
+    width: 70px;
+    height: 70px;
+    padding-right: 20px;
+}
+#divic{
+    display: flex;
+    align-items: center;
+
+}
+main{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    color: midnightblue;
+    padding: 30px;
+    font-weight: bold;
+}
+a{
+    color: darkred;
+    text-decoration: none;
+}
+span{
+    text-decoration: underline;
+}
